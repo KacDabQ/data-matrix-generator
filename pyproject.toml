@@ -1,0 +1,16 @@
+[project]
+name = "data-matrix-generator"
+version = "0.1.0"
+description = "pp project"
+authors = [
+    {name = "KacDabQ",email = "u118_kacdab_waw@technischools.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
