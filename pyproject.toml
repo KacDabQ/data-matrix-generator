@@ -1,7 +1,7 @@
 [project]
 name = "data-matrix-generator"
 version = "0.1.0"
-description = "pp project"
+description = ""
 authors = [
     {name = "KacDabQ",email = "u118_kacdab_waw@technischools.com"}
 ]
@@ -9,6 +9,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
 ]
+
+[tool.poetry]
+packages = [{include = "data_matrix_generator", from = "src"}]
 
 
 [build-system]
